@@ -7,18 +7,20 @@
   <link href="./assets/font/themify-icons/themify-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/normalize.css">
   <link rel="stylesheet" href="./assets/css/global.css">
+  <link rel="stylesheet" href="./assets/css/index.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <style>
     body {
-      font-family: Arial, Helvetica, sans-serif;;
+      font-family: Arial, Helvetica, sans-serif;
+      ;
     }
   </style>
   <title>Mandala</title>
 </head>
 
 <body>
-  <nav class="container-fluid mx-auto bg-transparent">
+  <nav class="container-fluid mx-auto position-fixed" style="background-color: transparent;">
     <div class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
@@ -71,7 +73,341 @@
   </nav>
 
   <main style="min-height: 100vh;">
+    <div class="banner">
+      <div class="banner__body">
+        <div class="banner__body--left">
+          <img src="/assets/img/banner-bottle.png" alt="bottle">
+          <div class="d-flex flex-column align-items-center">
+            <h1>Green Vera</h1>
+            <p>Sản phẩm tinh dầu dưỡng da mới nhất của Mandala</p>
+            <div class="text-uppercase">GIÁ CHỈ 750000đ</div>
+            <a href="#" class="text-decoration-underline">Mua hàng</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="main__body">
+
+      <section class="benefit">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-sm-4 benefit__container">
+              <div class="d-flex benefit__card">
+                <img src="/assets/img/departing-air-plane.svg" alt="" class="benefit__icon">
+                <div class="benefit__desc">Miễn phí vận chuyển toàn quốc</div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 benefit__container">
+              <div class="d-flex benefit__card">
+                <img src="/assets/img/gift.svg" alt="" class="benefit__icon">
+                <div class="benefit__desc">Nhận ngay quà tặng trị giá 350.000đ</div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 benefit__container">
+              <div class="d-flex benefit__card">
+                <img src="/assets/img/noun-star-6003319.svg" alt="" class="benefit__icon">
+                <div class="benefit__desc">Giảm ngay 30% cho đơn hàng trên 5.000.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="product">
+        <div class="container-fluid">
+          <div class="row product__row">
+            <div class="col-12 col-lg-6">
+              <div class="container-fluid product__subgrid">
+                <div class="row">
+                  <div class="col-6 ">
+                    <div class="product__img--sm">
+                      <img src="/assets/img/olive-oil.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-6 ">
+                    <div class="product__desc product__desc--olive">
+                      <h2>Sữa tắm</h2>
+                      <div>-------///////-------</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-6 ">
+                    <div class="product__desc">
+                      <div class="product__desc product__desc--perfume">
+                        <h2>Nước hoa</h2>
+                        <div>-------///////-------</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 ">
+                    <div class="product__img--sm">
+                      <img src="/assets/img/green-bg.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="product__img--lg">
+                <img src="/assets/img/corrinne.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="row product__row">
+            <div class="col-12 col-md-6">
+              <div class="product__img--lg">
+                <img src="/assets/img/home-remedy.png" alt="">
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="container-fluid product__subgrid">
+                <div class="row">
+                  <div class="col-6 ">
+                    <div class="product__desc product__desc--jewel">
+                      <h2>Trang sức</h2>
+                      <div>-------///////-------</div>
+                    </div>
+                  </div>
+                  <div class="col-6 ">
+                    <div class="product__img--sm">
+                      <img src="/assets/img/diamond.png" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-6 ">
+                    <div class="product__img--sm">
+                      <img src="/assets/img/woman-portrait.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-6 ">
+                    <div class="product__desc product__desc--woman">
+                      <h2>Quyến rũ hơn</h2>
+                      <div>
+                        cùng
+                        <span class="daisy-text">DAISY</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section class="testimonial">
+        <div class="container-fluid d-flex justify-content-start testimonial__container">
+          <img src="/assets/img/arab_woman.jpeg" alt="director">
+          <div class="testimonial__content">
+            <p class="testimonial__content--quote">
+              <span>"</span>Vẫn là vẻ bề ngoài vô cùng đơn giản với các tông màu trắng, hồng làm chủ đạo nhưng lại tạo
+              ra sức hút kỳ lạ với những ai cầm sản phẩm ấy! Với công nghệ cải tiến mới nhất, hãng Rohto <span>"</span>
+            </p>
+            <div class="testimonial__content--author">
+              <span class="testimonial__content--author__name">TUTILE</span>
+              <span class="testimonial__content--author__title">_ Giám đốc phát triển sản phẩm</span>
+            </div>
+            <span class="ti-more-alt"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container-fluid d-flex flex-column align-items-center justify-content-center">
+          <div class="d-flex flex-wrap align-items-end">
+            <h3 class="feature-name">Sản phẩm mới</h3>
+            <h3 class="feature-name feature-name--active">Sản phẩm bán chạy</h3>
+            <h3 class="feature-name">Sản phẩm đặc biệt</h3>
+          </div>
+          <div>-------///////-------</div>
+          <div class="d-flex">
+            <ul class="feature-cat">
+              <li>Mỹ phẩm</li>
+              <li>Chăm sóc da</li>
+              <li>Dành cho tóc</li>
+              <li>Nước hoa</li>
+              <li>Trang sức</li>
+              <li>Quà tặng</li>
+            </ul>
+          </div>
+          <div class="container text-center my-3">
+            <div class="row mx-auto my-auto justify-content-center">
+              <div id="productCarousel" class="carousel slide">
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item product__slide active">
+                    <div class="card product-card">
+                      <img class="card-img-top" src="//via.placeholder.com/500x400/31f?text=1" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="product-card__title">HOME</h5>
+                        <p class="product-card__text">Mỹ phẩm châu Âu.</p>
+                        <hr>
+                        <p class="product-card__price">355.000đ</p>
+                        <div class="product-card__action">
+                          <button class="btn btn-outline-dark">MUA HÀNG</button>
+                          <button class="btn btn-success"><span class="ti-heart text-white"></span></button>
+                          <button class="btn btn-outline-dark"><span class="ti-reload"></span></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item product__slide">
+                    <div class="card product-card">
+                      <img class="card-img-top" src="//via.placeholder.com/500x400/e66?text=2" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="product-card__title">HOME</h5>
+                        <p class="product-card__text">Mỹ phẩm châu Âu.</p>
+                        <hr>
+                        <p class="product-card__price">355.000đ</p>
+                        <div class="product-card__action">
+                          <button class="btn btn-outline-dark">MUA HÀNG</button>
+                          <button class="btn btn-success"><span class="ti-heart text-white"></span></button>
+                          <button class="btn btn-outline-dark"><span class="ti-reload"></span></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item product__slide">
+                    <div class="card product-card">
+                      <img class="card-img-top" src="//via.placeholder.com/500x400/7d2?text=3" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="product-card__title">HOME</h5>
+                        <p class="product-card__text">Mỹ phẩm châu Âu.</p>
+                        <hr>
+                        <p class="product-card__price">355.000đ</p>
+                        <div class="product-card__action">
+                          <button class="btn btn-outline-dark">MUA HÀNG</button>
+                          <button class="btn btn-success"><span class="ti-heart text-white"></span></button>
+                          <button class="btn btn-outline-dark"><span class="ti-reload"></span></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item product__slide">
+                    <div class="card product-card">
+                      <img class="card-img-top" src="//via.placeholder.com/500x400?text=4" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="product-card__title">HOME</h5>
+                        <p class="product-card__text">Mỹ phẩm châu Âu.</p>
+                        <hr>
+                        <p class="product-card__price">355.000đ</p>
+                        <div class="product-card__action">
+                          <button class="btn btn-outline-dark">MUA HÀNG</button>
+                          <button class="btn btn-success"><span class="ti-heart text-white"></span></button>
+                          <button class="btn btn-outline-dark"><span class="ti-reload"></span></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item product__slide">
+                    <div class="card product-card">
+                      <img class="card-img-top" src="//via.placeholder.com/500x400/aba?text=5" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="product-card__title">HOME</h5>
+                        <p class="product-card__text">Mỹ phẩm châu Âu.</p>
+                        <hr>
+                        <p class="product-card__price">355.000đ</p>
+                        <div class="product-card__action">
+                          <button class="btn btn-outline-dark">MUA HÀNG</button>
+                          <button class="btn btn-success"><span class="ti-heart text-white"></span></button>
+                          <button class="btn btn-outline-dark"><span class="ti-reload"></span></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item product__slide">
+                    <div class="card product-card">
+                      <img class="card-img-top" src="//via.placeholder.com/500x400/fc0?text=6" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="product-card__title">HOME</h5>
+                        <p class="product-card__text">Mỹ phẩm châu Âu.</p>
+                        <hr>
+                        <p class="product-card__price">355.000đ</p>
+                        <div class="product-card__action">
+                          <button class="btn btn-outline-dark">MUA HÀNG</button>
+                          <button class="btn btn-success"><span class="ti-heart text-white"></span></button>
+                          <button class="btn btn-outline-dark"><span class="ti-reload"></span></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <a class="carousel-control-prev bg-transparent w-aut" href="#productCarousel" role="button"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next bg-transparent w-aut" href="#productCarousel" role="button"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="social">
+        <div class="sns-container">
+          <ul class="sns-ul">
+            <li>
+              <span class="sns-icon ti-facebook"></span>
+              <span class="mx-2">Facebook</span>
+            </li>
+            <li>
+              <span class="sns-icon ti-twitter"></span>
+              <span class="mx-2">Twitter</span>
+            </li>
+            <li>
+              <span class="sns-icon ti-instagram"></span>
+              <span class="mx-2">Instagram</span>
+            </li>
+            <li>
+              <span class="sns-icon ti-google"></span>
+              <span class="mx-2">Google</span>
+            </li>
+            <li>
+              <span class="sns-icon ti-pinterest"></span>
+              <span class="mx-2">Pinterest</span>
+            </li>
+            <li>
+              <span class="sns-icon ti-linkedin"></span>
+              <span class="mx-2">Linkedin</span>
+            </li>
+          </ul>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-sm-4">
+              <div class="social-grid__title d-flex flex-column align-items-center">
+                <h2>Về chúng tôi</h2>
+                <div>-------///////-------</div>
+              </div>
+              <div class="social__mandala-logo">
+                <img src="./assets/img/Mandala.svg" alt="Logo" class="d-inline-block align-text-top nav__logo">
+              </div>
+              <div class="social__mandala-intro">
+                
+                <h3 class="mandala-intro__title">Giới thiệu chung về mỹ phẩm mandala</h3>
+                <p class="mandala-intro__text">Hi, chào các nàng ... sau khá nhiều lời hứa hão thì hôm nay tớ
+                  quay lại hâm nóng cái Blog này vào một ngày đầu hè nóng oi bức,
+                  khi mà dân tình xô nhau đi tắm Free để giải nhiệt. Hi, chào các
+                  nàng ... sau khá nhiều lời hứa hão thì hôm nay tớ quay lại hâm
+                  nóng cái Blog này vào một ngày đầu hè nóng oi bức, khi mà dân tình
+                  xô nhau đi tắm Free để giải nhiệt. Hi, chào các nàng ... sau khá
+                  nhiều lời hứa hão thì hôm nay tớ quay lại hâm nóng cái Blog này
+                  vào một ngày đầu hè nóng oi bức, khi mà dân tình xô nhau đi tắm
+                  Free để giải nhiệt.</p>
+                <a href="#" class="mandala-intro__seemore">Xem thêm</a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4"></div>
+            <div class="col-12 col-sm-4"></div>
+          </div>
+        </div>
+      </section>
+    </div>
   </main>
 
   <footer>
@@ -81,15 +417,21 @@
           <h5 class="font-weight-bold text-uppercase mb-2">Liên hệ với chúng tôi</h5>
           <div class="container-fluid">
             <div class="row">
-              <div class="col-12 footer__subgrid__cell text-wrap"><span class="footer__contact__icon ti-location-pin mx-1"></span>Tầng 4, Tòa nhà Hanoi Group, Số 442 Đội Cấn, P Cống Vị, Q Ba ĐÌnh, Hà Nội</div>
+              <div class="col-12 footer__subgrid__cell text-wrap"><span
+                  class="footer__contact__icon ti-location-pin mx-1"></span>Tầng 4, Tòa nhà Hanoi Group, Số 442 Đội Cấn,
+                P Cống Vị, Q Ba ĐÌnh, Hà Nội</div>
             </div>
             <div class="row">
-              <div class="col-6 footer__subgrid__cell text-wrap"><span class="footer__contact__icon ti-headphone-alt mx-1"></span>(04) 5574 1221</div>
-              <div class="col-6 footer__subgrid__cell text-wrap"><span class="footer__contact__icon ti-headphone-alt mx-1"></span>(04) 5574 1221</div>
+              <div class="col-6 footer__subgrid__cell text-wrap"><span
+                  class="footer__contact__icon ti-headphone-alt mx-1"></span>(04) 5574 1221</div>
+              <div class="col-6 footer__subgrid__cell text-wrap"><span
+                  class="footer__contact__icon ti-headphone-alt mx-1"></span>(04) 5574 1221</div>
             </div>
             <div class="row">
-              <div class="col-6 footer__subgrid__cell text-wrap"><span class="footer__contact__icon ti-headphone-alt mx-1"></span>(08) 5574 1221</div>
-              <div class="col-6 footer__subgrid__cell text-wrap"><span class="footer__contact__icon ti-email mx-1"></span>Support@bizweb.vn</div>
+              <div class="col-6 footer__subgrid__cell text-wrap"><span
+                  class="footer__contact__icon ti-headphone-alt mx-1"></span>(08) 5574 1221</div>
+              <div class="col-6 footer__subgrid__cell text-wrap"><span
+                  class="footer__contact__icon ti-email mx-1"></span>Support@bizweb.vn</div>
             </div>
           </div>
         </div>
@@ -135,7 +477,8 @@
       <div class="d-flex align-items-center justify-content-between py-4">
         <div class="">@Copyright 2014-2018 DKT Technology JSC</div>
         <div class="d-flex">
-          <a class="footer__brand" href="#"><img class="object-fit-fill" src="/assets/img/Mastercard-logo.svg" alt=""></a>
+          <a class="footer__brand" href="#"><img class="object-fit-fill" src="/assets/img/Mastercard-logo.svg"
+              alt=""></a>
           <a class="footer__brand" href="#"><img class="object-fit-fill" src="/assets/img/Visa_logo.svg" alt=""></a>
           <a class="footer__brand" href="#"><img class="object-fit-fill" src="/assets/img/PayPal.svg" alt=""></a>
           <a class="footer__brand" href="#"><img class="object-fit-fill" src="/assets/img/Maestro_2016.svg" alt=""></a>
@@ -147,6 +490,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
+  <script src="/assets/js/global.js"></script>
+  <script src="/assets/js/index.js"></script>
 </body>
 
 </html>
