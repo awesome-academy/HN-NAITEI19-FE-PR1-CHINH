@@ -1,10 +1,16 @@
 :root {
   --light-gray: #d3d3d3;
   --dark-gray: #636363;
+  --light-green: #31ff31;
   --dark-green: #62b300;
 }
 
-@media screen and (min-width: 576px) {
+nav {
+  padding: 0 5%;
+  z-index: 999;
+}
+
+@media screen and (min-width: 992px) {
   nav {
     padding: 0 15% !important;
   }
@@ -43,6 +49,10 @@
   .nav__right {
     font-size: medium;
   }
+}
+
+main {
+  width: 100%;
 }
 
 footer {
