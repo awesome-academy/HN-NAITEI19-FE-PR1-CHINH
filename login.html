@@ -7,6 +7,7 @@
   <link href="./assets/font/themify-icons/themify-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/normalize.css">
   <link rel="stylesheet" href="./assets/css/global.css">
+  <link rel="stylesheet" href="./assets/css/register.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <style>
@@ -139,7 +140,36 @@
     </div>
   </nav>
 
-  <main style="min-height: 100vh;">
+  <main>
+    <div class="main__body">
+      <div class="d-flex breadcrumb">
+        <span>Home</span>
+        <span>></span>
+        <span>Đăng nhập</span>
+      </div>
+      <hr class="w-full my-3">
+      <h2 class="fw-lighter my-3">ĐĂNG NHẬP</h2>
+      <div class="container-fluid my-3 p-4 bg-body-tertiary">
+        <form action="POST">
+          <h5>KHÁCH HÀNG ĐĂNG KÝ</h5>
+          <h6>Nếu bạn có một tài khoản, xin vui lòng đăng nhập</h6>
+          <div class="form-el">
+            <label for="email">Địa chỉ Email *</label>
+            <input type="email" name="email" id="email">
+          </div>
+          <div class="form-el">
+            <label for="passwd">Password *</label>
+            <input type="tel" name="passwd" id="passwd">
+          </div>
+          <div class="d-flex justify-content-start form-btn">
+            <button class="btn">Quên mật khẩu</button>
+            <button class="btn btn-dark text-uppercase">
+              Đăng nhập
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
 
   </main>
 

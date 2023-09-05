@@ -1,0 +1,34 @@
+main {
+  margin-top: 80px;
+  width: 100%;
+}
+
+.main__body {
+  padding: 0 5%;
+}
+
+@media screen and (min-width: 992px) {
+  .main__body {
+    padding: 1rem 15%;
+  }
+}
+
+.form-el {
+  width: 100%;
+  margin: 8px 0;
+}
+
+.form-el label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.form-el input {
+  width: 100%;
+}
+
+.form-btn {
+  margin: 8px 0;
+  width: 100%;
+  gap: 2rem;
+}
