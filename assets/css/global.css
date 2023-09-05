@@ -171,3 +171,10 @@ footer {
 .breadcrumb span:last-child {
   color: var(--light-green)
 }
+
+/**
+* utitlity
+*/
+.w-full {
+  width: 100% !important;
+}
