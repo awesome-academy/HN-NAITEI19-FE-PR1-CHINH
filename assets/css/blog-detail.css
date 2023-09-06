@@ -1,0 +1,50 @@
+main {
+  margin-top: 80px;
+  width: 100%;
+}
+
+.main__body {
+  padding: 0 5%;
+}
+
+@media screen and (min-width: 992px) {
+  .main__body {
+    padding: 1rem 15%;
+  }
+}
+
+.breadcrumb {
+  gap: 8px;
+}
+
+.breadcrumb span:last-child {
+  color: var(--light-green)
+}
+
+.news-item img {
+  width: 100px;
+  height: 75px;
+}
+
+.blog-main {
+  padding-top: 5.5rem;
+}
+
+.blog-author {
+  margin-top: 0.75rem;
+  font-size: small;
+  font-style: italic;
+  color: var(--light-gray);
+}
+
+.blog-seemore {
+  margin-top: 0.75rem;
+  font-size: small;
+  color: var(--light-gray);
+}
+
+.blog-ncomments {
+  margin-top: 0.75rem;
+  font-size: small;
+  color: var(--light-gray);
+}
