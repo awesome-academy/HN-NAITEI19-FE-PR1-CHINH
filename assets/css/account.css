@@ -1,0 +1,14 @@
+main {
+  margin-top: 80px;
+  width: 100%;
+}
+
+.main__body {
+  padding: 0 5%;
+}
+
+@media screen and (min-width: 992px) {
+  .main__body {
+    padding: 1rem 15%;
+  }
+}

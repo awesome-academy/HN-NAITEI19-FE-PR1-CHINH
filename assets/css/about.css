@@ -1,0 +1,31 @@
+main {
+  margin-top: 80px;
+  width: 100%;
+}
+
+.main__body {
+  padding: 0 5%;
+}
+
+@media screen and (min-width: 992px) {
+  .main__body {
+    padding: 1rem 15%;
+  }
+}
+
+.breadcrumb {
+  gap: 8px;
+}
+
+.breadcrumb span:last-child {
+  color: var(--light-green)
+}
+
+.about__desc {
+  margin-left: 16px;
+}
+
+.about__desc a {
+  color: var(--light-gray);
+  text-decoration: none;
+}

@@ -7,6 +7,7 @@
   <link href="./assets/font/themify-icons/themify-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/normalize.css">
   <link rel="stylesheet" href="./assets/css/global.css">
+  <link rel="stylesheet" href="./assets/css/register.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <style>
@@ -139,7 +140,57 @@
     </div>
   </nav>
 
-  <main style="min-height: 100vh;">
+  <main>
+    <div class="main__body">
+      <div class="d-flex breadcrumb">
+        <span>Home</span>
+        <span>></span>
+        <span>Đăng ký</span>
+      </div>
+      <hr class="w-full my-3">
+      <h2 class="fw-lighter my-3">ĐĂNG KÝ</h2>
+      <div class="container-fluid my-3 p-4 bg-body-tertiary">
+        <form action="POST">
+          <h5>THÔNG TIN CÁ NHÂN</h5>
+          <div class="form-el">
+            <label for="first-name">Tên trước *</label>
+            <input type="text" name="first-name" id="first-name">
+          </div>
+          <div class="form-el">
+            <label for="last-name">Tên sau *</label>
+            <input type="text" name="last-name" id="last-name">
+          </div>
+          <div class="form-el">
+            <label for="email">Email *</label>
+            <input type="email" name="email" id="email">
+          </div>
+          <div class="form-el">
+            <label for="passwd">Password *</label>
+            <input type="tel" name="passwd" id="passwd">
+          </div>
+          <div class="my-2">
+            <input type="checkbox" id="news" name="news">
+            <label for="news">Đăng ký nhận bản tin</label>
+          </div>
+          <h5>THÔNG TIN ĐĂNG NHẬP</h5>
+          <div class="form-el">
+            <label for="mk">Mật khẩu *</label>
+            <input type="tel" name="mk" id="mk">
+          </div>
+          <div class="form-el">
+            <label for="mk2">Xác nhận mật khẩu *</label>
+            <input type="tel" name="mk2" id="mk2">
+          </div>
+          <div class="d-flex justify-content-between form-btn">
+            <button class="btn btn-dark text-uppercase">Gửi</button>
+            <button class="btn btn-dark text-uppercase">
+              <span class="ti-arrow-left mr-2"></span>
+              <span>Quay lại</span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
 
   </main>
 
