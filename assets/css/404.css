@@ -1,0 +1,10 @@
+.body {
+  padding-top: 90px;
+}
+
+.search-input {
+  width: 600px; 
+  height: 48px;
+  border-radius: 12px;
+  padding-left: 1rem;
+}

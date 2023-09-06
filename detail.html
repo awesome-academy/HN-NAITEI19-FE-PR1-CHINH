@@ -34,10 +34,10 @@
               <a class="nav-item__link nav-link active text-uppercase" aria-current="page" href="/">Trang chủ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-item__link nav-link text-uppercase" href="#">Giới thiệu</a>
+              <a class="nav-item__link nav-link text-uppercase" href="about.html">Giới thiệu</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-item__link nav-link dropdown-toggle text-uppercase" href="#" role="button"
+              <a class="nav-item__link nav-link dropdown-toggle text-uppercase" href="grid.html" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 Sản phẩm
               </a>
@@ -97,13 +97,13 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-item__link nav-link text-uppercase" href="#">Tin tức</a>
+              <a class="nav-item__link nav-link text-uppercase" href="blog.html">Tin tức</a>
             </li>
             <li class="nav-item">
-              <a class="nav-item__link nav-link text-uppercase" href="#">Bản đồ</a>
+              <a class="nav-item__link nav-link text-uppercase" href="contact.html">Bản đồ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-item__link nav-link text-uppercase" href="#">Liên hệ</a>
+              <a class="nav-item__link nav-link text-uppercase" href="contact.html">Liên hệ</a>
             </li>
           </ul>
         </div>
@@ -113,30 +113,14 @@
             <a class="nav-link ti-shopping-cart" href="#" role="button" data-bs-toggle="dropdown"
               aria-expanded="false"></a>
             <div class="nav__dropdown nav__cart__dropdown dropdown-menu border border-success">
-              <div class="container p-0 d-flex flex-column">
-                <div class="d-flex justify-content-between">
-                  <img src="/assets/img/avatar_placeholder.png" alt="" width="50" height="50">
-                  <div>
-                    <h6>Áo sơ mi nam</h6>
-                    <div>120,000đ</div>
-                  </div>
-                  <span class="ti-close"></span>
-                </div>
-                <div class="d-flex justify-content-between">
-                  <img src="/assets/img/avatar_placeholder.png" alt="" width="50" height="50">
-                  <div>
-                    <h6>Áo sơ mi nam</h6>
-                    <div>120,000đ</div>
-                  </div>
-                  <span class="ti-close"></span>
-                </div>
+              <div class="container p-0 d-flex flex-column" id="nav__cart-container">
               </div>
               <hr class="my-3">
               <div class="d-flex justify-content-between">
                 <span>Tổng số</span>
-                <span>240,000đ</span>
+                <span id="nav__cart_total"></span>
               </div>
-              <a href="#" class="btn btn-dark text-uppercase">GIỎ HÀNG</a>
+              <a href="cart.html" class="btn btn-dark text-uppercase">GIỎ HÀNG</a>
             </div>
           </div>
           <button class="mx-3 navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -166,69 +150,38 @@
           <!-- gallery -->
           <div class="col-12 col-lg-7">
             <div class="container-fluid d-flex gap-2">
-              <div class="d-flex flex-column gap-2 gallery-left">
-                <button class="border-0"><i class="ti-arrow-up"></i></button>
-                <img
-                  src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640"
-                  alt="">
-                <img
-                  src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640"
-                  alt="">
-                <img
-                  src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640"
-                  alt="">
-                <img
-                  src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640"
-                  alt="">
-                <button class="border-0"><i class="ti-arrow-down"></i></button>
-              </div>
-              <div class="flex-grow-1 gallery-right">
-                <img
-                  src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640"
-                  alt="">
-              </div>
+              <div class="d-flex flex-column gap-2 gallery-left"></div>
+              <div class="flex-grow-1 gallery-right"></div>
             </div>
           </div>
           <!-- details -->
           <div class="col-12 col-lg-5">
-            <h4 class="text-uppercase fw-lighter">LẮC TAY TYFFANY XU HƯỚNG MỚI NHẤT</h4>
-            <h6>TYFFANY MS 3201</h6>
+            <h4 class="text-uppercase fw-lighter" id="prod-name"></h4>
+            <h6 id="prod-brand"></h6>
             <span>
-              <span class="fw-bold fs-3">955.000đ</span>
-              <span class="fw-semibold fs-5 text-secondary">955.000đ</span>
+              <span class="fw-bold fs-3" id="prod-price"></span>
+              <span class="fw-semibold fs-5 text-secondary" id="prod-discounted-price"></span>
             </span>
-            <p class="fw-light">Không thể phủ nhận, thời trang và phong cách chính là "tuyên ngôn" không lời mạnh mẽ
-              nhất của mỗi phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, có khi là nguồn cảm hứng vô tận để
-              phái đẹp sống vui, sống đẹp hơn trong mắt nửa còn lại của thế giới. Để F5 tủ đồ của mình trước những xu
-              hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu "mạnh tay" để
-              sở hữu những món đồ yêu thích.</p>
+            <p class="fw-light" id="prod-desc"></p>
             <form action="POST">
               <div class="my-3">
-                <label for="color" class="text-uppercase">Màu sắc</label>
-                <select name="color" id="color" class="form-select">
-                  <option value="gray" selected>Màu bạc</option>
-                  <option value="red">Màu đỏ</option>
-                  <option value="green">Màu xanh lá</option>
-                  <option value="blue">Màu xanh lục</option>
+                <label for="prod-color" class="text-uppercase">Màu sắc</label>
+                <select name="color" id="prod-color" class="form-select">
                 </select>
               </div>
               <div class="my-3">
-                <label for="size" class="text-uppercase">Size</label>
-                <select name="size" id="size" class="form-select">
-                  <option value="12" selected>12</option>
-                  <option value="14">14</option>
-                  <option value="16">16</option>
-                  <option value="18">18</option>
+                <label for="prod-size" class="text-uppercase">Size</label>
+                <select name="size" id="prod-size" class="form-select">
                 </select>
               </div>
               <div class="my-3">
-                <label for="count" class="text-uppercase">Số lượng</label>
-                <input type="number" name="count" id="count" value="1" class="form-count">
+                <label for="prod-count" class="text-uppercase">Số lượng</label>
+                <input type="number" name="count" id="prod-count" value="1" class="form-count">
               </div>
               <div class="d-flex gap-2">
-                <button class="btn btn-outline-dark">MUA HÀNG</button>
-                <button class="btn btn-success"><span class="ti-heart text-white"></span></button>
-                <button class="btn btn-outline-dark"><span class="ti-reload"></span></button>
+                <button type="button" class="btn btn-outline-dark" onclick="purchase()">MUA HÀNG</button>
+                <button type="button" class="btn btn-success"><span class="ti-heart text-white"></span></button>
+                <button type="button" class="btn btn-outline-dark"><span class="ti-reload"></span></button>
               </div>
               <span class="d-flex gap-1 my-3">
                 <span class="text-end">Shipping and <span class="text-danger">Returns</span></span>
@@ -326,11 +279,11 @@
                     <h5 class="fw-semibold">Mỹ phẩm châu Âu</h5>
                     <div>
                       <span>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
                       </span>
                       <span class="mx-2">( 4 lượt mua )</span>
                     </div>
@@ -344,11 +297,11 @@
                     <h5 class="fw-semibold">Mỹ phẩm châu Âu</h5>
                     <div>
                       <span>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
                       </span>
                       <span class="mx-2">( 4 lượt mua )</span>
                     </div>
@@ -362,11 +315,11 @@
                     <h5 class="fw-semibold">Mỹ phẩm châu Âu</h5>
                     <div>
                       <span>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
                       </span>
                       <span class="mx-2">( 4 lượt mua )</span>
                     </div>
@@ -389,11 +342,11 @@
                     <h5 class="fw-semibold">Mỹ phẩm châu Âu</h5>
                     <div>
                       <span>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
                       </span>
                       <span class="mx-2">( 4 lượt mua )</span>
                     </div>
@@ -407,11 +360,11 @@
                     <h5 class="fw-semibold">Mỹ phẩm châu Âu</h5>
                     <div>
                       <span>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
                       </span>
                       <span class="mx-2">( 4 lượt mua )</span>
                     </div>
@@ -425,11 +378,11 @@
                     <h5 class="fw-semibold">Mỹ phẩm châu Âu</h5>
                     <div>
                       <span>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
                       </span>
                       <span class="mx-2">( 4 lượt mua )</span>
                     </div>
@@ -443,11 +396,11 @@
                     <h5 class="fw-semibold">Mỹ phẩm châu Âu</h5>
                     <div>
                       <span>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
                       </span>
                       <span class="mx-2">( 4 lượt mua )</span>
                     </div>
@@ -461,11 +414,11 @@
                     <h5 class="fw-semibold">Mỹ phẩm châu Âu</h5>
                     <div>
                       <span>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
                       </span>
                       <span class="mx-2">( 4 lượt mua )</span>
                     </div>
@@ -561,6 +514,7 @@
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
   <script src="/assets/js/global.js"></script>
+  <script src="/assets/js/detail.js"></script>
 </body>
 
 </html>

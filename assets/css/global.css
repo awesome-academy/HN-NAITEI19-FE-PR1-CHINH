@@ -10,6 +10,7 @@ nav {
   z-index: 999;
   background-color: transparent;
   top: 0;
+  border-bottom: 1px solid var(--light-gray);
 }
 
 @media screen and (min-width: 992px) {
@@ -87,6 +88,11 @@ nav {
   border-bottom: 10px solid rgb(25, 135, 84);
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
+}
+
+.nav__cart__rm {
+  background-color: transparent;
+  border: none;
 }
 
 .nav__right {

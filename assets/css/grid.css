@@ -27,6 +27,11 @@ nav {
   color: black !important;
 }
 
+.list-pagination__item a {
+  color: initial;
+  text-decoration: none;
+}
+
 .list-pagination > .active {
   color: black !important;
 }

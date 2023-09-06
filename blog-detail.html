@@ -104,6 +104,84 @@
               <a class="nav-item__link nav-link text-uppercase" href="#">Liên hệ</a>
             </li>
           </ul>
+        </div><div class="collapse navbar-collapse nav-items__container" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-item__link nav-link active text-uppercase" aria-current="page" href="/">Trang chủ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item__link nav-link text-uppercase" href="about.html">Giới thiệu</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-item__link nav-link dropdown-toggle text-uppercase" href="grid.html" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Sản phẩm
+              </a>
+              <div class="nav__dropdown nav__product__dropdown dropdown-menu border border-success">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-4">
+                      <h5>DƯỠNG DA</h5>
+                      <ul>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a href="#">Áo khoác</a></li>
+                        <li><a href="#">Bộ áo liền quần</a></li>
+                        <li><a href="#">Dresses</a></li>
+                        <li><a href="#">Quần / váy</a></li>
+                        <li><a href="#">Quần short</a></li>
+                        <li><a href="#">Quần jean</a></li>
+                        <li><a href="#">Đồ đan</a></li>
+                        <li><a href="#">Áo nỉ</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                      <h5>NƯỚC HOA</h5>
+                      <ul>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a href="#">Áo cánh / Áo sơ mi</a></li>
+                        <li><a href="#">Túi xách & balô</a></li>
+                        <li><a href="#">Khăn quàng cổ và Foulards</a></li>
+                        <li><a href="#">Dệt kim Hats & Gloves</a></li>
+                        <li><a href="#">Vớ & Socks</a></li>
+                        <li><a href="#">Jewelry</a></li>
+                        <li><a href="#">Bị bảo vệ</a></li>
+                        <li><a href="#">Giày</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                      <h5>TRANG SỨC</h5>
+                      <ul>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a href="#">Áo cánh / Áo sơ mi</a></li>
+                        <li><a href="#">Túi xách & balô</a></li>
+                        <li><a href="#">Khăn quàng cổ và Foulards</a></li>
+                        <li><a href="#">Dệt kim Hats & Gloves</a></li>
+                        <li><a href="#">Vớ & Socks</a></li>
+                        <li><a href="#">Jewelry</a></li>
+                        <li><a href="#">Bị bảo vệ</a></li>
+                        <li><a href="#">Giày</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item__link nav-link text-uppercase" href="blog.html">Tin tức</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item__link nav-link text-uppercase" href="contact.html">Bản đồ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item__link nav-link text-uppercase" href="contact.html">Liên hệ</a>
+            </li>
+          </ul>
         </div>
         <div class="d-flex align-items-center nav__right">
           <div class="mx-3 text-decoration-none"><a href="#" class="nav-link ti-search"></a></div>
@@ -111,30 +189,14 @@
             <a class="nav-link ti-shopping-cart" href="#" role="button" data-bs-toggle="dropdown"
               aria-expanded="false"></a>
             <div class="nav__dropdown nav__cart__dropdown dropdown-menu border border-success">
-              <div class="container p-0 d-flex flex-column">
-                <div class="d-flex justify-content-between">
-                  <img src="/assets/img/avatar_placeholder.png" alt="" width="50" height="50">
-                  <div>
-                    <h6>Áo sơ mi nam</h6>
-                    <div>120,000đ</div>
-                  </div>
-                  <span class="ti-close"></span>
-                </div>
-                <div class="d-flex justify-content-between">
-                  <img src="/assets/img/avatar_placeholder.png" alt="" width="50" height="50">
-                  <div>
-                    <h6>Áo sơ mi nam</h6>
-                    <div>120,000đ</div>
-                  </div>
-                  <span class="ti-close"></span>
-                </div>
+              <div class="container p-0 d-flex flex-column" id="nav__cart-container">
               </div>
               <hr class="my-3">
               <div class="d-flex justify-content-between">
                 <span>Tổng số</span>
-                <span>240,000đ</span>
+                <span id="nav__cart_total"></span>
               </div>
-              <a href="#" class="btn btn-dark text-uppercase">GIỎ HÀNG</a>
+              <a href="cart.html" class="btn btn-dark text-uppercase">GIỎ HÀNG</a>
             </div>
           </div>
           <button class="mx-3 navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -199,12 +261,7 @@
             <section class="my-5">
               <div class="text-uppercase">BLOG TAGS</div>
               <hr class="w-full mb-1">
-              <div class="d-flex flex-wrap gap-1">
-                <a href="" class="btn btn-success">Đồng hồ</a>
-                <a href="" class="btn btn-outline-dark">Túi</a>
-                <a href="" class="btn btn-outline-dark">Phụ kiện</a>
-                <a href="" class="btn btn-outline-dark">Đồng hồ</a>
-                <a href="" class="btn btn-outline-dark">Túi</a>
+              <div class="d-flex flex-wrap gap-1" id="blog-tag-container">
               </div>
             </section>
             <section class="my-5">
@@ -217,23 +274,23 @@
           </div>
           <!-- main body -->
           <div class="col-12 col-lg-9">
-            <div class="w-full blog-main">
-              <img src="/assets/img/blog.jpg" alt="" class="w-full" style="height: auto;">
+            <div class="w-full blog-main" id="blog-img">
+              
             </div>
             <div class="mt-5">
-              <h2 class="text-uppercase">Nàng béo không ngại diện váy áo nổi bật</h2>
+              <h2 class="text-uppercase" id="blog-title"></h2>
               <hr class="w-full mb-2">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sint blanditiis! Pariatur exercitationem earum aliquid mollitia consequuntur ducimus optio ipsam voluptates quis, autem distinctio laudantium? Facere voluptates dolore cupiditate error. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsum voluptatum modi dolorem in repellendus enim distinctio, dicta quidem, nemo assumenda dignissimos? Voluptatum, vero ea? Aliquid quis officia est quae?</p>
+              <p id="blog-content"></p>
               <div class="blog-author">
                 Bởi 
-                <span>Nam Tran</span>
-                <span>(20/10/2021)</span>
+                <span id="blog-author">Nam Tran</span>
+                <span id="blog-date">(20/10/2021)</span>
               </div>
               <hr class="w-full mb-2">
               <div class="d-flex justify-content-between">
                 <div class="blog-seemore">Đọc thêm <span class="ti-angle-right mx-2"></span></div>
                 <div class="blog-ncomments">
-                  <span>23</span> bình luận
+                  <span id="blog-ncomments">23</span> bình luận
                 </div>
               </div>
               <div class="d-flex mt-3">
@@ -355,6 +412,7 @@
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
   <script src="/assets/js/global.js"></script>
+  <script src="/assets/js/blog-detail.js"></script>
 </body>
 
 </html>
