@@ -32,10 +32,10 @@
               <a class="nav-item__link nav-link active text-uppercase" aria-current="page" href="/">Trang chủ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-item__link nav-link text-uppercase" href="#">Giới thiệu</a>
+              <a class="nav-item__link nav-link text-uppercase" href="about.html">Giới thiệu</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-item__link nav-link dropdown-toggle text-uppercase" href="#" role="button"
+              <a class="nav-item__link nav-link dropdown-toggle text-uppercase" href="grid.html" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 Sản phẩm
               </a>
@@ -45,7 +45,9 @@
                     <div class="col-4">
                       <h5>DƯỠNG DA</h5>
                       <ul>
-                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
                         <li><a href="#">Áo khoác</a></li>
                         <li><a href="#">Bộ áo liền quần</a></li>
                         <li><a href="#">Dresses</a></li>
@@ -59,7 +61,9 @@
                     <div class="col-4">
                       <h5>NƯỚC HOA</h5>
                       <ul>
-                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
                         <li><a href="#">Áo cánh / Áo sơ mi</a></li>
                         <li><a href="#">Túi xách & balô</a></li>
                         <li><a href="#">Khăn quàng cổ và Foulards</a></li>
@@ -73,7 +77,9 @@
                     <div class="col-4">
                       <h5>TRANG SỨC</h5>
                       <ul>
-                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
                         <li><a href="#">Áo cánh / Áo sơ mi</a></li>
                         <li><a href="#">Túi xách & balô</a></li>
                         <li><a href="#">Khăn quàng cổ và Foulards</a></li>
@@ -89,46 +95,30 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-item__link nav-link text-uppercase" href="#">Tin tức</a>
+              <a class="nav-item__link nav-link text-uppercase" href="blog.html">Tin tức</a>
             </li>
             <li class="nav-item">
-              <a class="nav-item__link nav-link text-uppercase" href="#">Bản đồ</a>
+              <a class="nav-item__link nav-link text-uppercase" href="contact.html">Bản đồ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-item__link nav-link text-uppercase" href="#">Liên hệ</a>
+              <a class="nav-item__link nav-link text-uppercase" href="contact.html">Liên hệ</a>
             </li>
           </ul>
         </div>
         <div class="d-flex align-items-center nav__right">
           <div class="mx-3 text-decoration-none"><a href="#" class="nav-link ti-search"></a></div>
           <div class="mx-3 text-decoration-none dropdown">
-            <a class="nav-link ti-shopping-cart" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false"></a>
+            <a class="nav-link ti-shopping-cart" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false"></a>
             <div class="nav__dropdown nav__cart__dropdown dropdown-menu border border-success">
-              <div class="container p-0 d-flex flex-column">
-                <div class="d-flex justify-content-between">
-                  <img src="/assets/img/avatar_placeholder.png" alt="" width="50" height="50">
-                  <div>
-                    <h6>Áo sơ mi nam</h6>
-                    <div>120,000đ</div>
-                  </div>
-                  <span class="ti-close"></span>
-                </div>
-                <div class="d-flex justify-content-between">
-                  <img src="/assets/img/avatar_placeholder.png" alt="" width="50" height="50">
-                  <div>
-                    <h6>Áo sơ mi nam</h6>
-                    <div>120,000đ</div>
-                  </div>
-                  <span class="ti-close"></span>
-                </div>
+              <div class="container p-0 d-flex flex-column" id="nav__cart-container">
               </div>
               <hr class="my-3">
               <div class="d-flex justify-content-between">
                 <span>Tổng số</span>
-                <span>240,000đ</span>
+                <span id="nav__cart_total"></span>
               </div>
-              <a href="#" class="btn btn-dark text-uppercase">GIỎ HÀNG</a>
+              <a href="cart.html" class="btn btn-dark text-uppercase">GIỎ HÀNG</a>
             </div>
           </div>
           <button class="mx-3 navbar-toggler" type="button" data-bs-toggle="collapse"

@@ -36,10 +36,10 @@
               <a class="nav-item__link nav-link active text-uppercase" aria-current="page" href="/">Trang chủ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-item__link nav-link text-uppercase" href="#">Giới thiệu</a>
+              <a class="nav-item__link nav-link text-uppercase" href="about.html">Giới thiệu</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-item__link nav-link dropdown-toggle text-uppercase" href="#" role="button"
+              <a class="nav-item__link nav-link dropdown-toggle text-uppercase" href="grid.html" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 Sản phẩm
               </a>
@@ -49,7 +49,9 @@
                     <div class="col-4">
                       <h5>DƯỠNG DA</h5>
                       <ul>
-                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
                         <li><a href="#">Áo khoác</a></li>
                         <li><a href="#">Bộ áo liền quần</a></li>
                         <li><a href="#">Dresses</a></li>
@@ -63,7 +65,9 @@
                     <div class="col-4">
                       <h5>NƯỚC HOA</h5>
                       <ul>
-                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
                         <li><a href="#">Áo cánh / Áo sơ mi</a></li>
                         <li><a href="#">Túi xách & balô</a></li>
                         <li><a href="#">Khăn quàng cổ và Foulards</a></li>
@@ -77,7 +81,9 @@
                     <div class="col-4">
                       <h5>TRANG SỨC</h5>
                       <ul>
-                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
                         <li><a href="#">Áo cánh / Áo sơ mi</a></li>
                         <li><a href="#">Túi xách & balô</a></li>
                         <li><a href="#">Khăn quàng cổ và Foulards</a></li>
@@ -93,46 +99,30 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-item__link nav-link text-uppercase" href="#">Tin tức</a>
+              <a class="nav-item__link nav-link text-uppercase" href="blog.html">Tin tức</a>
             </li>
             <li class="nav-item">
-              <a class="nav-item__link nav-link text-uppercase" href="#">Bản đồ</a>
+              <a class="nav-item__link nav-link text-uppercase" href="contact.html">Bản đồ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-item__link nav-link text-uppercase" href="#">Liên hệ</a>
+              <a class="nav-item__link nav-link text-uppercase" href="contact.html">Liên hệ</a>
             </li>
           </ul>
         </div>
         <div class="d-flex align-items-center nav__right">
           <div class="mx-3 text-decoration-none"><a href="#" class="nav-link ti-search"></a></div>
           <div class="mx-3 text-decoration-none dropdown">
-            <a class="nav-link ti-shopping-cart" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false"></a>
+            <a class="nav-link ti-shopping-cart" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false"></a>
             <div class="nav__dropdown nav__cart__dropdown dropdown-menu border border-success">
-              <div class="container p-0 d-flex flex-column">
-                <div class="d-flex justify-content-between">
-                  <img src="/assets/img/avatar_placeholder.png" alt="" width="50" height="50">
-                  <div>
-                    <h6>Áo sơ mi nam</h6>
-                    <div>120,000đ</div>
-                  </div>
-                  <span class="ti-close"></span>
-                </div>
-                <div class="d-flex justify-content-between">
-                  <img src="/assets/img/avatar_placeholder.png" alt="" width="50" height="50">
-                  <div>
-                    <h6>Áo sơ mi nam</h6>
-                    <div>120,000đ</div>
-                  </div>
-                  <span class="ti-close"></span>
-                </div>
+              <div class="container p-0 d-flex flex-column" id="nav__cart-container">
               </div>
               <hr class="my-3">
               <div class="d-flex justify-content-between">
                 <span>Tổng số</span>
-                <span>240,000đ</span>
+                <span id="nav__cart_total"></span>
               </div>
-              <a href="#" class="btn btn-dark text-uppercase">GIỎ HÀNG</a>
+              <a href="cart.html" class="btn btn-dark text-uppercase">GIỎ HÀNG</a>
             </div>
           </div>
           <button class="mx-3 navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -158,6 +148,7 @@
     <div class="banner-container w-full">
       <img src="/assets/img/banner2.png" alt="" class="w-full" style="height: auto;">
     </div>
+    <div class="container my-5" id="search-query"></div>
     <div class="container my-5">
       <div class="row">
         <!-- sidebar -->
@@ -181,11 +172,11 @@
                   <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                       <ul>
-                        <li>A</li>
-                        <li>A</li>
-                        <li>A</li>
-                        <li>A</li>
-                        <li>A</li>
+                        <li><a href="grid.html?cat=vongtay" class="link-dark rounded text-secondary text-decoration-none">Vòng tay</a></li>
+                        <li><a href="grid.html?cat=nhan" class="link-dark rounded text-secondary text-decoration-none">Nhẫn</a></li>
+                        <li><a href="grid.html?cat=vay" class="link-dark rounded text-secondary text-decoration-none">Váy</a></li>
+                        <li><a href="grid.html?cat=ao" class="link-dark rounded text-secondary text-decoration-none">Áo</a></li>
+                        <li><a href="grid.html?cat=khac" class="link-dark rounded text-secondary text-decoration-none">Phụ kiện khác</a></li>
                       </ul>
                     </div>
                   </div>
@@ -199,11 +190,11 @@
                   <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                       <ul>
-                        <li><a href="#" class="link-dark rounded text-secondary text-decoration-none">Vòng tay</a></li>
-                        <li><a href="#" class="link-dark rounded text-secondary text-decoration-none">Nhẫn</a></li>
-                        <li><a href="#" class="link-dark rounded text-secondary text-decoration-none">Lắc chân</a></li>
-                        <li><a href="#" class="link-dark rounded text-secondary text-decoration-none">Phụ kiện khác</a></li>
-                        <li><a href="#" class="link-dark rounded text-secondary text-decoration-none">Giày lưới</a></li>
+                        <li><a href="grid.html?cat=vongtay" class="link-dark rounded text-secondary text-decoration-none">Vòng tay</a></li>
+                        <li><a href="grid.html?cat=nhan" class="link-dark rounded text-secondary text-decoration-none">Nhẫn</a></li>
+                        <li><a href="grid.html?cat=vay" class="link-dark rounded text-secondary text-decoration-none">Váy</a></li>
+                        <li><a href="grid.html?cat=ao" class="link-dark rounded text-secondary text-decoration-none">Áo</a></li>
+                        <li><a href="grid.html?cat=khac" class="link-dark rounded text-secondary text-decoration-none">Phụ kiện khác</a></li>
                       </ul>
                     </div>
                   </div>
@@ -217,29 +208,29 @@
                   <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                       <ul>
-                        <li>C</li>
-                        <li>C</li>
-                        <li>C</li>
-                        <li>C</li>
-                        <li>C</li>
+                        <li><a href="grid.html?cat=vongtay" class="link-dark rounded text-secondary text-decoration-none">Vòng tay</a></li>
+                        <li><a href="grid.html?cat=nhan" class="link-dark rounded text-secondary text-decoration-none">Nhẫn</a></li>
+                        <li><a href="grid.html?cat=vay" class="link-dark rounded text-secondary text-decoration-none">Váy</a></li>
+                        <li><a href="grid.html?cat=ao" class="link-dark rounded text-secondary text-decoration-none">Áo</a></li>
+                        <li><a href="grid.html?cat=khac" class="link-dark rounded text-secondary text-decoration-none">Phụ kiện khác</a></li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 <div class="accordion-item border-0">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
                       Nước hoa
                     </button>
                   </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                       <ul>
-                        <li>D</li>
-                        <li>D</li>
-                        <li>D</li>
-                        <li>D</li>
-                        <li>D</li>
+                        <li><a href="grid.html?cat=vongtay" class="link-dark rounded text-secondary text-decoration-none">Vòng tay</a></li>
+                        <li><a href="grid.html?cat=nhan" class="link-dark rounded text-secondary text-decoration-none">Nhẫn</a></li>
+                        <li><a href="grid.html?cat=vay" class="link-dark rounded text-secondary text-decoration-none">Váy</a></li>
+                        <li><a href="grid.html?cat=ao" class="link-dark rounded text-secondary text-decoration-none">Áo</a></li>
+                        <li><a href="grid.html?cat=khac" class="link-dark rounded text-secondary text-decoration-none">Phụ kiện khác</a></li>
                       </ul>
                     </div>
                   </div>
@@ -282,155 +273,17 @@
           <div class="my-5">
             <div class="d-flex justify-content-between">
               <span>
-                <a href="#" class="fas fa-th-large text-black text-decoration-none"></a>
-                <a href="#" class="fas fa-list mx-2 text-black text-decoration-none"></a>
+                <a href="grid.html" class="fas fa-th-large text-black text-decoration-none"></a>
+                <a href="list.html" class="fas fa-list mx-2 text-black text-decoration-none"></a>
               </span>
               <ul class="list-pagination m-0 p-0">
-                <li><i class="list-pagination__item fas fa-caret-left px-2"></i></li>
-                <li class="list-pagination__item active fw-semibold px-2">1</li>
-                <li class="list-pagination__item fw-semibold text-secondary px-2">2</li>
-                <li class="list-pagination__item fw-semibold text-secondary px-2">3</li>
-                <li><i class="list-pagination__item fas fa-caret-right px-2"></i></li>
               </ul>
             </div>
             <hr class="w-full mb-2">
           </div>
 
-          <div class="">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-4 card product-card">
-                  <img class="card-img-top" src="/assets/img/products/4.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="product-card__title">DEBORA</h5>
-                    <p class="product-card__text">Mỹ phẩm châu Âu.</p>
-                    <hr>
-                    <p class="product-card__price">355.000đ</p>
-                    <div class="product-card__action">
-                      <button class="btn btn-outline-dark">MUA HÀNG</button>
-                      <button class="btn btn-success"><span class="ti-heart text-white"></span></button>
-                      <button class="btn btn-outline-dark"><span class="ti-reload"></span></button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-4 card product-card">
-                  <img class="card-img-top" src="/assets/img/products/4.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="product-card__title">DEBORA</h5>
-                    <p class="product-card__text">Mỹ phẩm châu Âu.</p>
-                    <hr>
-                    <p class="product-card__price">355.000đ</p>
-                    <div class="product-card__action">
-                      <button class="btn btn-outline-dark">MUA HÀNG</button>
-                      <button class="btn btn-success"><span class="ti-heart text-white"></span></button>
-                      <button class="btn btn-outline-dark"><span class="ti-reload"></span></button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-4 card product-card">
-                  <img class="card-img-top" src="/assets/img/products/4.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="product-card__title">DEBORA</h5>
-                    <p class="product-card__text">Mỹ phẩm châu Âu.</p>
-                    <hr>
-                    <p class="product-card__price">355.000đ</p>
-                    <div class="product-card__action">
-                      <button class="btn btn-outline-dark">MUA HÀNG</button>
-                      <button class="btn btn-success"><span class="ti-heart text-white"></span></button>
-                      <button class="btn btn-outline-dark"><span class="ti-reload"></span></button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-4 card product-card">
-                  <img class="card-img-top" src="/assets/img/products/4.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="product-card__title">DEBORA</h5>
-                    <p class="product-card__text">Mỹ phẩm châu Âu.</p>
-                    <hr>
-                    <p class="product-card__price">355.000đ</p>
-                    <div class="product-card__action">
-                      <button class="btn btn-outline-dark">MUA HÀNG</button>
-                      <button class="btn btn-success"><span class="ti-heart text-white"></span></button>
-                      <button class="btn btn-outline-dark"><span class="ti-reload"></span></button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-4 card product-card">
-                  <img class="card-img-top" src="/assets/img/products/4.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="product-card__title">DEBORA</h5>
-                    <p class="product-card__text">Mỹ phẩm châu Âu.</p>
-                    <hr>
-                    <p class="product-card__price">355.000đ</p>
-                    <div class="product-card__action">
-                      <button class="btn btn-outline-dark">MUA HÀNG</button>
-                      <button class="btn btn-success"><span class="ti-heart text-white"></span></button>
-                      <button class="btn btn-outline-dark"><span class="ti-reload"></span></button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-4 card product-card">
-                  <img class="card-img-top" src="/assets/img/products/4.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="product-card__title">DEBORA</h5>
-                    <p class="product-card__text">Mỹ phẩm châu Âu.</p>
-                    <hr>
-                    <p class="product-card__price">355.000đ</p>
-                    <div class="product-card__action">
-                      <button class="btn btn-outline-dark">MUA HÀNG</button>
-                      <button class="btn btn-success"><span class="ti-heart text-white"></span></button>
-                      <button class="btn btn-outline-dark"><span class="ti-reload"></span></button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-4 card product-card">
-                  <img class="card-img-top" src="/assets/img/products/4.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="product-card__title">DEBORA</h5>
-                    <p class="product-card__text">Mỹ phẩm châu Âu.</p>
-                    <hr>
-                    <p class="product-card__price">355.000đ</p>
-                    <div class="product-card__action">
-                      <button class="btn btn-outline-dark">MUA HÀNG</button>
-                      <button class="btn btn-success"><span class="ti-heart text-white"></span></button>
-                      <button class="btn btn-outline-dark"><span class="ti-reload"></span></button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-4 card product-card">
-                  <img class="card-img-top" src="/assets/img/products/4.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="product-card__title">DEBORA</h5>
-                    <p class="product-card__text">Mỹ phẩm châu Âu.</p>
-                    <hr>
-                    <p class="product-card__price">355.000đ</p>
-                    <div class="product-card__action">
-                      <button class="btn btn-outline-dark">MUA HÀNG</button>
-                      <button class="btn btn-success"><span class="ti-heart text-white"></span></button>
-                      <button class="btn btn-outline-dark"><span class="ti-reload"></span></button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-4 card product-card">
-                  <img class="card-img-top" src="/assets/img/products/4.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="product-card__title">DEBORA</h5>
-                    <p class="product-card__text">Mỹ phẩm châu Âu.</p>
-                    <hr>
-                    <p class="product-card__price">355.000đ</p>
-                    <div class="product-card__action">
-                      <button class="btn btn-outline-dark">MUA HÀNG</button>
-                      <button class="btn btn-success"><span class="ti-heart text-white"></span></button>
-                      <button class="btn btn-outline-dark"><span class="ti-reload"></span></button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="container-fluid d-flex flex-wrap justify-content-between" id="product-card-container">
+            
           </div>
 
           <div class="my-5">
@@ -440,11 +293,6 @@
                 <a href="#" class="fas fa-list mx-2 text-black text-decoration-none"></a>
               </span>
               <ul class="list-pagination m-0 p-0">
-                <li><i class="list-pagination__item fas fa-caret-left px-2"></i></li>
-                <li class="list-pagination__item active fw-semibold px-2">1</li>
-                <li class="list-pagination__item fw-semibold text-secondary px-2">2</li>
-                <li class="list-pagination__item fw-semibold text-secondary px-2">3</li>
-                <li><i class="list-pagination__item fas fa-caret-right px-2"></i></li>
               </ul>
             </div>
             <hr class="w-full mb-2">
@@ -535,6 +383,7 @@
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
   <script src="/assets/js/global.js"></script>
+  <script src="assets/js/grid.js"></script>
 </body>
 
 </html>

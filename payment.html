@@ -141,28 +141,52 @@
         <span>Trang sức</span>
       </div>
       <hr class="w-full my-3">
-      <div class="container-fluid">
-        <h2 class="fw-lighter my-3 text-uppercase">Giỏ hàng</h2>
-        <table class="table border">
-          <thead class="thead-light">
-            <tr>
-              <th scope="col" class="border text-center text-uppercase bg-body-tertiary">Ảnh</th>
-              <th scope="col" class="border text-center text-uppercase bg-body-tertiary">Tên sản phẩm</th>
-              <th scope="col" class="border text-center text-uppercase bg-body-tertiary">Giá</th>
-              <th scope="col" class="border text-center text-uppercase bg-body-tertiary">Só lượng</th>
-              <th scope="col" class="border text-center text-uppercase bg-body-tertiary">Tổng số</th>
-              <th scope="col" class="border text-center text-uppercase bg-body-tertiary">Xóa</th>
-            </tr>
-          </thead>
-          <tbody id="cart-container">
-                        
-          </tbody>
-        </table>
-        <div class="d-flex justify-content-end gap-2 my-3">
-          <div class="w-full" id="total-price"></div>
-          <a href="grid.html" class="btn btn-dark text-uppercase">Tiếp tục mua hàng</a>
-          <button onclick="clearItems()" class="btn btn-dark text-uppercase">Xóa</button>
-          <a href="payment.html" onclick="" class="btn btn-dark bg-success text-uppercase">Tiếp tục</a>
+      <div class="d-flex gap-3">
+        <div class="flex-grow-2">
+          <h2 class="fw-lighter my-3 text-uppercase">Thông tin thanh toán</h2>
+          <table class="table border">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col" class="border text-center text-uppercase bg-body-tertiary">Ảnh</th>
+                <th scope="col" class="border text-center text-uppercase bg-body-tertiary">Tên sản phẩm</th>
+                <th scope="col" class="border text-center text-uppercase bg-body-tertiary">Giá</th>
+                <th scope="col" class="border text-center text-uppercase bg-body-tertiary">Só lượng</th>
+                <th scope="col" class="border text-center text-uppercase bg-body-tertiary">Tổng số</th>
+              </tr>
+            </thead>
+            <tbody id="cart-container">     
+            </tbody>
+          </table>
+          <div class="d-flex justify-content-end" id="total-price"></div>
+        </div>
+        <div class="flex-grow-1" style="padding-top: 70px">
+          <form action="" id="form-customer" onsubmit="payItems()">
+            <div class="form-el">
+              <label for="customer-name" class="my-1">Tên khách hàng</label>
+              <br>
+              <input class="w-full" required type="text" name="customer-name" id="customer-name">
+            </div>
+            <div class="form-el">
+              <label for="card-code" class="my-1">Mã thẻ</label>
+              <br>
+              <input class="w-full" required type="text" name="card-code" id="card-code">
+            </div>
+            <div class="d-flex justify-content-between gap-2">
+              <div class="form-el flex-grow-1">
+                <label for="card-exp" class="my-1">Expiration date</label>
+                <br>
+                <input class="w-full" required type="date" name="card-exp" id="card-exp">
+              </div>
+              <div class="form-el flex-grow-1">
+                <label for="card-cvv" class="my-1">CVV</label>
+                <br>
+                <input class="w-full" required type="number" name="card-cvv" id="card-cvv">
+              </div>
+            </div>
+            <div class="d-flex justify-content-end gap-2 my-3">
+              <button type="submit" class="btn btn-dark bg-success text-uppercase">Thanh toán</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
@@ -250,7 +274,7 @@
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
   <script src="/assets/js/global.js"></script>
-  <script src="/assets/js/cart.js"></script>
+  <script src="/assets/js/payment.js"></script>
 </body>
 
 </html>

@@ -12,3 +12,11 @@ main {
     padding: 1rem 15%;
   }
 }
+
+.cart__item-count {
+  width: 3rem;
+}
+.cart__item-rm {
+  background-color: transparent;
+  border: none;
+}

@@ -1,3 +1,555 @@
 {
-  
+  "products": [
+    {
+      "id": 1,
+      "name": "Lắc tay tyffany xu hướng mới nhất",
+      "brand": "Tyffany",
+      "images": [
+        "/assets/img/products/1.jpg",
+        "/assets/img/products/5.jpg",
+        "/assets/img/products/3.jpg",
+        "/assets/img/products/2.jpg",
+        "/assets/img/products/4.jpg"
+      ],
+      "price": 355000,
+      "discountedPrice": 255000,
+      "desc": "Không thể phủ nhận, thời trang và phong cách chính là 'tuyên ngôn' không lời mạnh mẽ nhất của mỗi phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, có khi là nguồn cảm hứng vô tận để phái đẹp sống vui, sống đẹp hơn trong mắt nửa còn lại của thế giới. Để F5 tủ đồ của mình trước những xu hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu 'mạnh tay' để sở hữu những món đồ yêu thích",
+      "colors": [
+        "silver",
+        "blue"
+      ],
+      "sizes": [
+        12,
+        14,
+        16
+      ],
+      "cattegory": "vongtay",
+      "quantity": 100,
+      "purchaseCount": 4,
+      "stars": 4
+    },
+    {
+      "id": 2,
+      "name": "Đầm hoa tươi tắn",
+      "brand": "Dolce & Gabbana",
+      "images": [
+        "/assets/img/products/6.jpg",
+        "/assets/img/products/7.jpg",
+        "/assets/img/products/2.jpg",
+        "/assets/img/products/3.jpg",
+        "/assets/img/products/1.jpg"
+      ],
+      "price": 420000,
+      "discountedPrice": 320000,
+      "desc": "Một chiếc đầm hoa luôn là lựa chọn tuyệt vời cho mùa hè. Nó tươi tắn và thanh khiết như làn gió mát rượi trên biển. Đầm hoa tươi tắn này sẽ là sự lựa chọn hoàn hảo cho các buổi dạo chơi cuối tuần hoặc dự tiệc ngoài trời.",
+      "colors": [
+        "white",
+        "pink"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "quantity": 13,
+      "purchaseCount": 4,
+      "stars": 4
+    },
+    {
+      "id": 3,
+      "name": "Lắc tay nữ thời trang",
+      "brand": "Channel",
+      "images": [
+        "/assets/img/products/8.jpg",
+        "/assets/img/products/9.jpg",
+        "/assets/img/products/3.jpg",
+        "/assets/img/products/6.jpg",
+        "/assets/img/products/5.jpg"
+      ],
+      "price": 280000,
+      "discountedPrice": 200000,
+      "desc": "Một chiếc túi xách thời trang là điểm nhấn hoàn hảo cho bất kỳ trang phục nào. Túi xách này được thiết kế đẹp mắt với chất liệu chất lượng cao, là sự kết hợp hoàn hảo giữa thời trang và tính ứng dụng.",
+      "colors": [
+        "black",
+        "red"
+      ],
+      "cattegory": "vongtay",
+      "sizes": [
+        "M"
+      ],
+      "quantity": 19,
+      "purchaseCount": 4,
+      "stars": 4
+    },
+    {
+      "id": 4,
+      "name": "Áo sơ mi nam cổ điển",
+      "brand": "Dolce & Gabbana",
+      "images": [
+        "/assets/img/products/9.jpg",
+        "/assets/img/products/2.jpg",
+        "/assets/img/products/5.jpg",
+        "/assets/img/products/4.jpg",
+        "/assets/img/products/6.jpg"
+      ],
+      "price": 290000,
+      "discountedPrice": 220000,
+      "desc": "Áo sơ mi nam luôn là một món đồ phải có trong tủ quần áo. Chiếc áo sơ mi cổ điển này sẽ mang đến vẻ lịch lãm và sang trọng cho bạn trong mọi dịp.",
+      "colors": [
+        "white",
+        "blue"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "quantity": 12,
+      "purchaseCount": 4,
+      "stars": 4
+    },
+    {
+      "id": 5,
+      "name": "Váy dự tiệc hoa văn",
+      "brand": "Tyffany",
+      "images": [
+        "/assets/img/products/7.jpg",
+        "/assets/img/products/2.jpg",
+        "/assets/img/products/8.jpg",
+        "/assets/img/products/1.jpg",
+        "/assets/img/products/4.jpg"
+      ],
+      "price": 380000,
+      "discountedPrice": 290000,
+      "desc": "Nếu bạn đang tìm kiếm một chiếc váy cho buổi tiệc đêm, thì đừng bỏ lỡ chiếc váy dự tiệc hoa văn này. Nó sẽ khiến bạn tỏa sáng và nổi bật trong mọi bữa tiệc.",
+      "colors": [
+        "black",
+        "gold"
+      ],
+      "cattegory": "vay",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "quantity": 8,
+      "purchaseCount": 4,
+      "stars": 4
+    },
+    {
+      "id": 6,
+      "name": "Giày thể thao nam",
+      "brand": "Nike",
+      "images": [
+        "/assets/img/products/9.jpg",
+        "/assets/img/products/5.jpg",
+        "/assets/img/products/3.jpg",
+        "/assets/img/products/1.jpg",
+        "/assets/img/products/2.jpg"
+      ],
+      "price": 320000,
+      "discountedPrice": 240000,
+      "desc": "Đôi giày thể thao nam này là sự kết hợp hoàn hảo giữa phong cách và thoải mái. Chúng sẽ làm bạn tự tin và năng động trong mọi hoạt động thể thao và hàng ngày.",
+      "colors": [
+        "white",
+        "blue"
+      ],
+      "cattegory": "khac",
+      "sizes": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "quantity": 18,
+      "purchaseCount": 4,
+      "stars": 4
+    },
+    {
+      "id": 7,
+      "name": "Nhẫn nữ thời trang",
+      "brand": "Rolex",
+      "images": [
+        "/assets/img/products/3.jpg",
+        "/assets/img/products/7.jpg",
+        "/assets/img/products/1.jpg",
+        "/assets/img/products/2.jpg",
+        "/assets/img/products/4.jpg"
+      ],
+      "price": 450000,
+      "discountedPrice": 350000,
+      "desc": "Chiếc đồng hồ nữ thời trang này là một phụ kiện không thể thiếu cho phụ nữ hiện đại. Với thiết kế thanh lịch và đẳng cấp, nó sẽ làm cho bạn luôn tự tin và quyến rũ.",
+      "colors": [
+        "rose gold",
+        "silver"
+      ],
+      "cattegory": "nhan",
+      "sizes": [
+        "M"
+      ],
+      "quantity": 14,
+      "purchaseCount": 4,
+      "stars": 4
+    },
+    {
+      "id": 8,
+      "name": "Váy du lịch thời trang",
+      "brand": "Adidas",
+      "images": [
+        "/assets/img/products/2.jpg",
+        "/assets/img/products/5.jpg",
+        "/assets/img/products/6.jpg",
+        "/assets/img/products/2.jpg",
+        "/assets/img/products/4.jpg"
+      ],
+      "price": 320000,
+      "discountedPrice": 250000,
+      "desc": "Balo du lịch thời trang này là sự kết hợp hoàn hảo giữa thời trang và tính ứng dụng. Nó sẽ là bạn đồng hành đáng tin cậy trong mọi chuyến du lịch.",
+      "colors": [
+        "black",
+        "gray"
+      ],
+      "cattegory": "vay",
+      "sizes": [
+        "L"
+      ],
+      "quantity": 22,
+      "purchaseCount": 4,
+      "stars": 4
+    },
+    {
+      "id": 9,
+      "name": "Áo khoác nữ thời trang",
+      "brand": "Adidas",
+      "images": [
+        "/assets/img/products/4.jpg",
+        "/assets/img/products/5.jpg",
+        "/assets/img/products/3.jpg",
+        "/assets/img/products/6.jpg",
+        "/assets/img/products/4.jpg"
+      ],
+      "price": 380000,
+      "discountedPrice": 290000,
+      "desc": "Chiếc áo khoác nữ thời trang này là lựa chọn hoàn hảo cho mùa đông. Nó ấm áp, thoải mái và vẫn giữ vẻ thời trang của bạn.",
+      "colors": [
+        "black",
+        "navy"
+      ],
+      "cattegory": "ao",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "quantity": 16,
+      "purchaseCount": 4,
+      "stars": 4
+    },
+    {
+      "id": 10,
+      "name": "Ao thể thao nam",
+      "brand": "Nike",
+      "images": [
+        "/assets/img/products/8.jpg",
+        "/assets/img/products/5.jpg",
+        "/assets/img/products/9.jpg",
+        "/assets/img/products/2.jpg",
+        "/assets/img/products/4.jpg"
+      ],
+      "price": 260000,
+      "discountedPrice": 180000,
+      "desc": "Đôi quần thể thao nam này sẽ đem lại sự thoải mái cho bạn trong mọi hoạt động thể thao. Với thiết kế đơn giản và phong cách, chúng phù hợp với mọi trang phục.",
+      "colors": [
+        "gray",
+        "black"
+      ],
+      "cattegory": "ao",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "quantity": 20,
+      "purchaseCount": 4,
+      "stars": 4
+    },
+    {
+      "id": 11,
+      "name": "Quần thể thao nam",
+      "brand": "Nike",
+      "images": [
+        "/assets/img/products/8.jpg",
+        "/assets/img/products/5.jpg",
+        "/assets/img/products/9.jpg",
+        "/assets/img/products/2.jpg",
+        "/assets/img/products/4.jpg"
+      ],
+      "price": 260000,
+      "discountedPrice": 180000,
+      "desc": "Đôi quần thể thao nam này sẽ đem lại sự thoải mái cho bạn trong mọi hoạt động thể thao. Với thiết kế đơn giản và phong cách, chúng phù hợp với mọi trang phục.",
+      "colors": [
+        "gray",
+        "black"
+      ],
+      "cattegory": "khac",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "quantity": 20,
+      "purchaseCount": 4,
+      "stars": 4
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Review son kem Bourjois Velvet",
+      "content": "Hi, chào các nàng ... sau khá nhiều lời hứa hão thì hôm nay quay lại hâm nóng cái Blog này vào một ngày đầu hè nóng oi bức, khi mà dân tình xô nhau đi tắm Free để giải nhiệt.",
+      "image": "/assets/img/blog.jpg",
+      "author": "Nguyễn Thị Hồng Nhung",
+      "date": "2018-06-01",
+      "ncomments": 23,
+      "tags": [
+        "son kem",
+        "bourjois",
+        "làm đẹp"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Mẹo trang điểm tự nhiên cho mùa hè",
+      "content": "Những mẹo trang điểm tự nhiên sẽ giúp bạn tỏa sáng trong mùa hè. Hãy thử áp dụng chúng và cảm nhận sự khác biệt!",
+      "image": "https://people.com/thmb/4lrz_VE9sMcEm7u7ySTUfmDXpxg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/selena-gomez-rare-beauty-tout-475f8973ffa34df0990416daad701564.jpg",
+      "author": "Trần Văn Minh",
+      "date": "2018-06-05",
+      "ncomments": 15,
+      "tags": [
+        "trang điểm",
+        "mẹo làm đẹp",
+        "mùa hè"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bí quyết chăm sóc da dầu hiệu quả",
+      "content": "Da dầu luôn là một vấn đề khá phiền toái. Tuy nhiên, bí quyết chăm sóc da dầu hiệu quả sẽ giúp bạn có làn da tươi sáng và mịn màng.",
+      "image": "https://assets.thehansindia.com/h-upload/2021/05/02/1073951-beauty.webp",
+      "author": "Lê Thị Ánh Hồng",
+      "date": "2018-06-10",
+      "ncomments": 18,
+      "tags": [
+        "chăm sóc da",
+        "da dầu",
+        "làm đẹp"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Hướng dẫn làm món salad tráng miệng",
+      "content": "Salad không chỉ là món ăn bữa trưa mà còn là món tráng miệng ngon và bổ dưỡng. Hãy thử làm món salad tráng miệng này để thưởng thức sau bữa tối!",
+      "image": "https://people.com/thmb/4lrz_VE9sMcEm7u7ySTUfmDXpxg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/selena-gomez-rare-beauty-tout-475f8973ffa34df0990416daad701564.jpg",
+      "author": "Nguyễn Văn An",
+      "date": "2018-06-15",
+      "ncomments": 12,
+      "tags": [
+        "ẩm thực",
+        "salad",
+        "tráng miệng"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Kinh nghiệm du lịch Đà Nẵng thú vị",
+      "content": "Đà Nẵng là điểm đến tuyệt vời cho mùa hè. Chia sẻ những kinh nghiệm du lịch Đà Nẵng để có chuyến đi thú vị và đáng nhớ!",
+      "image": "https://assets.thehansindia.com/h-upload/2021/05/02/1073951-beauty.webp",
+      "author": "Phạm Thị Hạnh",
+      "date": "2018-06-20",
+      "ncomments": 30,
+      "tags": [
+        "du lịch",
+        "Đà Nẵng",
+        "kinh nghiệm du lịch"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Cách chăm sóc cây cảnh trong nhà",
+      "content": "Cây cảnh trong nhà không chỉ làm cho ngôi nhà thêm xanh mát mà còn giúp cải thiện chất lượng không khí. Hãy tìm hiểu cách chăm sóc cây cảnh đơn giản và hiệu quả.",
+      "image": "https://assets.thehansindia.com/h-upload/2021/05/02/1073951-beauty.webp",
+      "author": "Trương Văn Phúc",
+      "date": "2018-06-25",
+      "ncomments": 21,
+      "tags": [
+        "cây cảnh",
+        "chăm sóc cây cảnh"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Những mẫu áo khoác thời trang cho mùa đông",
+      "content": "Mùa đông đang đến gần, hãy xem qua những mẫu áo khoác thời trang để sẵn sàng đón tiết trời se lạnh.",
+      "image": "/assets/img/blog.jpg",
+      "author": "Nguyễn Thị Hoài An",
+      "date": "2018-07-01",
+      "ncomments": 25,
+      "tags": [
+        "thời trang",
+        "mùa đông",
+        "áo khoác"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Bí quyết làm bánh mì ngon tại nhà",
+      "content": "Bánh mì là một món ăn ngon và bổ dưỡng. Hãy thử làm bánh mì tại nhà bằng những bí quyết đơn giản này!",
+      "image": "https://people.com/thmb/4lrz_VE9sMcEm7u7ySTUfmDXpxg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/selena-gomez-rare-beauty-tout-475f8973ffa34df0990416daad701564.jpg",
+      "author": "Trần Thị Mai",
+      "date": "2018-07-05",
+      "ncomments": 28,
+      "tags": [
+        "ẩm thực",
+        "bánh mì",
+        "làm bánh tại nhà"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Hướng dẫn trồng cây cảnh cho người mới",
+      "content": "Bạn muốn thử trồng cây cảnh nhưng chưa biết bắt đầu từ đâu? Hãy xem hướng dẫn trồng cây cảnh dành cho người mới để có một góc xanh trong nhà.",
+      "image": "https://assets.thehansindia.com/h-upload/2021/05/02/1073951-beauty.webp",
+      "author": "Lê Văn Thanh",
+      "date": "2018-07-10",
+      "ncomments": 17,
+      "tags": [
+        "cây cảnh",
+        "trồng cây",
+        "hướng dẫn"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Cách chọn quần áo hợp màu",
+      "content": "Chọn quần áo hợp màu là một nghệ thuật. Hãy tìm hiểu cách chọn quần áo để tạo ra các trang phục ấn tượng.",
+      "image": "https://people.com/thmb/4lrz_VE9sMcEm7u7ySTUfmDXpxg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/selena-gomez-rare-beauty-tout-475f8973ffa34df0990416daad701564.jpg",
+      "author": "Phạm Thị Hương",
+      "date": "2018-07-15",
+      "ncomments": 20,
+      "tags": [
+        "thời trang",
+        "quần áo",
+        "chọn màu sắc"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Cách lựa chọn nội thất cho ngôi nhà mới",
+      "content": "Khi bạn sắm đồ cho ngôi nhà mới, hãy lựa chọn nội thất một cách thông minh. Cùng tìm hiểu cách để có một ngôi nhà đẹp và thoải mái.",
+      "image": "/assets/img/blog.jpg",
+      "author": "Nguyễn Văn Đức",
+      "date": "2018-07-20",
+      "ncomments": 22,
+      "tags": [
+        "nội thất",
+        "lựa chọn nội thất",
+        "trang trí nhà cửa"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Hướng dẫn làm bánh trung thu ngon",
+      "content": "Bánh trung thu là món quà truyền thống trong ngày Tết Trung Thu. Hãy tự tay làm bánh trung thu ngon tại nhà để thưởng thức cùng gia đình và bạn bè.",
+      "image": "/assets/img/blog.jpg",
+      "author": "Lê Thị Phương Anh",
+      "date": "2018-07-25",
+      "ncomments": 26,
+      "tags": [
+        "ẩm thực",
+        "bánh trung thu",
+        "làm bánh"
+      ]
+    }
+  ],
+  "invoices": [
+    {
+      "customer-name": "abcacbasb sadf",
+      "card-code": "12sadg2134",
+      "card-exp": "2023-09-05",
+      "card-cvv": "123",
+      "products": [
+        {
+          "id": 1,
+          "quantity": "2"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "customer-name": "abcacbasb sadf",
+      "card-code": "12sadg2134",
+      "card-exp": "2023-09-08",
+      "card-cvv": "123",
+      "products": [
+        {
+          "id": 1,
+          "quantity": "2"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "customer-name": "abcacbasb sadf",
+      "card-code": "12sadg2134",
+      "card-exp": "2023-09-15",
+      "card-cvv": "123",
+      "products": [
+        {
+          "id": 2,
+          "quantity": 2
+        },
+        {
+          "id": 3,
+          "quantity": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "customer-name": "asd 12",
+      "card-code": "12sadg2134",
+      "card-exp": "2023-09-19",
+      "card-cvv": "123",
+      "products": [
+        {
+          "id": 2,
+          "quantity": 2
+        },
+        {
+          "id": 3,
+          "quantity": 1
+        }
+      ],
+      "id": 4
+    },
+    {
+      "customer-name": "abcacbasb sadf",
+      "card-code": "12sadg2134",
+      "card-exp": "2023-09-02",
+      "card-cvv": "132",
+      "products": [
+        {
+          "id": 2,
+          "quantity": 2
+        },
+        {
+          "id": 3,
+          "quantity": 1
+        }
+      ],
+      "id": 5
+    }
+  ]
 }
