@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet"
+    type="text/css" />
+  <link href="./assets/font/themify-icons/themify-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/normalize.css">
+  <link rel="stylesheet" href="./assets/css/global.css">
+  <link rel="stylesheet" href="./assets/css/detail.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      ;
+    }
+  </style>
+  <title>Mandala</title>
+</head>
+
+<body>
+  <nav class="container-fluid mx-auto position-fixed" style="background-color: transparent;">
+    <div class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img src="./assets/img/Mandala.svg" alt="Logo" class="d-inline-block align-text-top nav__logo">
+        </a>
+        <div class="collapse navbar-collapse nav-items__container" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-item__link nav-link active text-uppercase" aria-current="page" href="/">Trang chủ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item__link nav-link text-uppercase" href="#">Giới thiệu</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-item__link nav-link dropdown-toggle text-uppercase" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Sản phẩm
+              </a>
+              <div class="nav__dropdown nav__product__dropdown dropdown-menu border border-success">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-4">
+                      <h5>DƯỠNG DA</h5>
+                      <ul>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a href="#">Áo khoác</a></li>
+                        <li><a href="#">Bộ áo liền quần</a></li>
+                        <li><a href="#">Dresses</a></li>
+                        <li><a href="#">Quần / váy</a></li>
+                        <li><a href="#">Quần short</a></li>
+                        <li><a href="#">Quần jean</a></li>
+                        <li><a href="#">Đồ đan</a></li>
+                        <li><a href="#">Áo nỉ</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                      <h5>NƯỚC HOA</h5>
+                      <ul>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a href="#">Áo cánh / Áo sơ mi</a></li>
+                        <li><a href="#">Túi xách & balô</a></li>
+                        <li><a href="#">Khăn quàng cổ và Foulards</a></li>
+                        <li><a href="#">Dệt kim Hats & Gloves</a></li>
+                        <li><a href="#">Vớ & Socks</a></li>
+                        <li><a href="#">Jewelry</a></li>
+                        <li><a href="#">Bị bảo vệ</a></li>
+                        <li><a href="#">Giày</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                      <h5>TRANG SỨC</h5>
+                      <ul>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a href="#">Áo cánh / Áo sơ mi</a></li>
+                        <li><a href="#">Túi xách & balô</a></li>
+                        <li><a href="#">Khăn quàng cổ và Foulards</a></li>
+                        <li><a href="#">Dệt kim Hats & Gloves</a></li>
+                        <li><a href="#">Vớ & Socks</a></li>
+                        <li><a href="#">Jewelry</a></li>
+                        <li><a href="#">Bị bảo vệ</a></li>
+                        <li><a href="#">Giày</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item__link nav-link text-uppercase" href="#">Tin tức</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item__link nav-link text-uppercase" href="#">Bản đồ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item__link nav-link text-uppercase" href="#">Liên hệ</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex align-items-center nav__right">
+          <div class="mx-3 text-decoration-none"><a href="#" class="nav-link ti-search"></a></div>
+          <div class="mx-3 text-decoration-none dropdown">
+            <a class="nav-link ti-shopping-cart" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false"></a>
+            <div class="nav__dropdown nav__cart__dropdown dropdown-menu border border-success">
+              <div class="container p-0 d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                  <img src="/assets/img/avatar_placeholder.png" alt="" width="50" height="50">
+                  <div>
+                    <h6>Áo sơ mi nam</h6>
+                    <div>120,000đ</div>
+                  </div>
+                  <span class="ti-close"></span>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <img src="/assets/img/avatar_placeholder.png" alt="" width="50" height="50">
+                  <div>
+                    <h6>Áo sơ mi nam</h6>
+                    <div>120,000đ</div>
+                  </div>
+                  <span class="ti-close"></span>
+                </div>
+              </div>
+              <hr class="my-3">
+              <div class="d-flex justify-content-between">
+                <span>Tổng số</span>
+                <span>240,000đ</span>
+              </div>
+              <a href="#" class="btn btn-dark text-uppercase">GIỎ HÀNG</a>
+            </div>
+          </div>
+          <button class="mx-3 navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon nav_toggler"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main style="min-height: 100vh;">
+    <div class="container breadcrumb-container">
+      <div class="d-flex breadcrumb">
+        <span>Home</span>
+        <span>></span>
+        <span>Sản phẩm</span>
+        <span>></span>
+        <span>Trang sức</span>
+      </div>
+    </div>
+    <hr class="w-full my-3">
+    <div class="container">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- gallery -->
+          <div class="col-12 col-lg-7">
+            <div class="container-fluid d-flex gap-2">
+              <div class="d-flex flex-column gap-2 gallery-left">
+                <button class="border-0"><i class="ti-arrow-up"></i></button>
+                <img
+                  src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640"
+                  alt="">
+                <img
+                  src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640"
+                  alt="">
+                <img
+                  src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640"
+                  alt="">
+                <img
+                  src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640"
+                  alt="">
+                <button class="border-0"><i class="ti-arrow-down"></i></button>
+              </div>
+              <div class="flex-grow-1 gallery-right">
+                <img
+                  src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640"
+                  alt="">
+              </div>
+            </div>
+          </div>
+          <!-- details -->
+          <div class="col-12 col-lg-5">
+            <h4 class="text-uppercase fw-lighter">LẮC TAY TYFFANY XU HƯỚNG MỚI NHẤT</h4>
+            <h6>TYFFANY MS 3201</h6>
+            <span>
+              <span class="fw-bold fs-3">955.000đ</span>
+              <span class="fw-semibold fs-5 text-secondary">955.000đ</span>
+            </span>
+            <p class="fw-light">Không thể phủ nhận, thời trang và phong cách chính là "tuyên ngôn" không lời mạnh mẽ
+              nhất của mỗi phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, có khi là nguồn cảm hứng vô tận để
+              phái đẹp sống vui, sống đẹp hơn trong mắt nửa còn lại của thế giới. Để F5 tủ đồ của mình trước những xu
+              hướng ngày một đa dạng hơn trong thế giới thời trang, nhiều chị em không ngần ngại chi tiêu "mạnh tay" để
+              sở hữu những món đồ yêu thích.</p>
+            <form action="POST">
+              <div class="my-3">
+                <label for="color" class="text-uppercase">Màu sắc</label>
+                <select name="color" id="color" class="form-select">
+                  <option value="gray" selected>Màu bạc</option>
+                  <option value="red">Màu đỏ</option>
+                  <option value="green">Màu xanh lá</option>
+                  <option value="blue">Màu xanh lục</option>
+                </select>
+              </div>
+              <div class="my-3">
+                <label for="size" class="text-uppercase">Size</label>
+                <select name="size" id="size" class="form-select">
+                  <option value="12" selected>12</option>
+                  <option value="14">14</option>
+                  <option value="16">16</option>
+                  <option value="18">18</option>
+                </select>
+              </div>
+              <div class="my-3">
+                <label for="count" class="text-uppercase">Số lượng</label>
+                <input type="number" name="count" id="count" value="1" class="form-count">
+              </div>
+              <div class="d-flex gap-2">
+                <button class="btn btn-outline-dark">MUA HÀNG</button>
+                <button class="btn btn-success"><span class="ti-heart text-white"></span></button>
+                <button class="btn btn-outline-dark"><span class="ti-reload"></span></button>
+              </div>
+              <span class="d-flex gap-1 my-3">
+                <span class="text-end">Shipping and <span class="text-danger">Returns</span></span>
+                <span class="share-buttons">
+                  <button class="share-button facebook">
+                    <i class="fab fa-facebook-f"></i>
+                    <span class="text-white">Like</span>
+                  </button>
+                  <button class="share-button twitter">
+                    <i class="fab fa-twitter"></i>
+                    <span class="text-black">Tweet</span>
+                  </button>
+                  <button class="share-button google">
+                    <i class="fab fa-google-plus-g"></i>
+                  </button>
+                  <button class="share-button linkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span class="text-white">Share</span>
+                  </button>
+                  <button class="share-button pinterest">
+                    <span class="text-danger">Pinit</span>
+                  </button>
+                </span>
+              </span>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <!-- tabs -->
+          <div class="col-12 col-lg-9">
+            <ul class="nav tab-nav">
+              <li class="nav-item tab-nav__item">
+                <a class="nav-link active" aria-current="page" href="#">ĐẶC ĐIỂM NỔI BẬT</a>
+              </li>
+              <li class="nav-item tab-nav__item">
+                <a class="nav-link" href="#">THÔNG TIN SẢN PHẨM</a>
+              </li>
+              <li class="nav-item tab-nav__item">
+                <a class="nav-link" href="#">ĐÁNH GIÁ</a>
+              </li>
+            </ul>
+            <hr class="w-full mb-2">
+            <div class="d-flex flex-column gap-2">
+              <div class="d-flex justify-content-between tab-content__item">
+                <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640" alt="" class="order-2">
+                <div class="order-1 tab-content__item__info">
+                  <h5 class="text-uppercase text-start">THE MARK OF LEGEND</h5>
+                  <hr class="my-2 float-start">
+                  <div style="clear: both;"></div>
+                  <p class="text-secondary text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas tempora deleniti, repellat consequuntur animi ab velit voluptas fugiat cum earum quod, temporibus doloremque voluptatem. Tenetur itaque voluptas eaque odio error!</p>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between tab-content__item">
+                <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640" alt="" class="order-1">
+                <div class="order-2 tab-content__item__info">
+                  <h5 class="text-uppercase text-end">THE MARK OF LEGEND</h5>
+                  <hr class="my-2 float-end">
+                  <div style="clear: both;"></div>
+                  <p class="text-secondary text-end">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas tempora deleniti, repellat consequuntur animi ab velit voluptas fugiat cum earum quod, temporibus doloremque voluptatem. Tenetur itaque voluptas eaque odio error!</p>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between tab-content__item">
+                <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640" alt="" class="order-2">
+                <div class="order-1 tab-content__item__info">
+                  <h5 class="text-uppercase text-start">THE MARK OF LEGEND</h5>
+                  <hr class="my-2 float-start">
+                  <div style="clear: both;"></div>
+                  <p class="text-secondary text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas tempora deleniti, repellat consequuntur animi ab velit voluptas fugiat cum earum quod, temporibus doloremque voluptatem. Tenetur itaque voluptas eaque odio error!</p>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between tab-content__item">
+                <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640" alt="" class="order-1">
+                <div class="order-2 tab-content__item__info">
+                  <h5 class="text-uppercase text-end">THE MARK OF LEGEND</h5>
+                  <hr class="my-2 float-end">
+                  <div style="clear: both;"></div>
+                  <p class="text-secondary text-end">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas tempora deleniti, repellat consequuntur animi ab velit voluptas fugiat cum earum quod, temporibus doloremque voluptatem. Tenetur itaque voluptas eaque odio error!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- featured products -->
+          <div class="col-12 col-lg-3 container-fluid">
+            <div class="row">
+              <div class="p-3">
+                <span class="fw-bold">
+                  <span class="text-uppercase">SẢN PHẨM BÁN CHẠY</span>
+                </span>
+              </div>
+              <hr class="w-full mb-2">
+              <div class="d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                  <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640" alt="" width="100" height="100">
+                  <div>
+                    <h5 class="fw-semibold">Mỹ phẩm châu Âu</h5>
+                    <div>
+                      <span>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                      </span>
+                      <span class="mx-2">( 4 lượt mua )</span>
+                    </div>
+                    <p class="text-black fw-bold">355.000đ</p>
+                  </div>
+                </div>
+                <hr class="my-2">
+                <div class="d-flex justify-content-between">
+                  <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640" alt="" width="100" height="100">
+                  <div>
+                    <h5 class="fw-semibold">Mỹ phẩm châu Âu</h5>
+                    <div>
+                      <span>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                      </span>
+                      <span class="mx-2">( 4 lượt mua )</span>
+                    </div>
+                    <p class="text-black fw-bold">355.000đ</p>
+                  </div>
+                </div>
+                <hr class="my-2">
+                <div class="d-flex justify-content-between">
+                  <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640" alt="" width="100" height="100">
+                  <div>
+                    <h5 class="fw-semibold">Mỹ phẩm châu Âu</h5>
+                    <div>
+                      <span>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                      </span>
+                      <span class="mx-2">( 4 lượt mua )</span>
+                    </div>
+                    <p class="text-black fw-bold">355.000đ</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="p-3">
+                <span class="fw-bold">
+                  <span class="text-uppercase">SẢN PHẨM mua nhiều</span>
+                </span>
+              </div>
+              <hr class="w-full mb-2">
+              <div class="d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                  <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640" alt="" width="100" height="100">
+                  <div>
+                    <h5 class="fw-semibold">Mỹ phẩm châu Âu</h5>
+                    <div>
+                      <span>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                      </span>
+                      <span class="mx-2">( 4 lượt mua )</span>
+                    </div>
+                    <p class="text-black fw-bold">355.000đ</p>
+                  </div>
+                </div>
+                <hr class="my-2">
+                <div class="d-flex justify-content-between">
+                  <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640" alt="" width="100" height="100">
+                  <div>
+                    <h5 class="fw-semibold">Mỹ phẩm châu Âu</h5>
+                    <div>
+                      <span>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                      </span>
+                      <span class="mx-2">( 4 lượt mua )</span>
+                    </div>
+                    <p class="text-black fw-bold">355.000đ</p>
+                  </div>
+                </div>
+                <hr class="my-2">
+                <div class="d-flex justify-content-between">
+                  <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640" alt="" width="100" height="100">
+                  <div>
+                    <h5 class="fw-semibold">Mỹ phẩm châu Âu</h5>
+                    <div>
+                      <span>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                      </span>
+                      <span class="mx-2">( 4 lượt mua )</span>
+                    </div>
+                    <p class="text-black fw-bold">355.000đ</p>
+                  </div>
+                </div>
+                <hr class="my-2">
+                <div class="d-flex justify-content-between">
+                  <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640" alt="" width="100" height="100">
+                  <div>
+                    <h5 class="fw-semibold">Mỹ phẩm châu Âu</h5>
+                    <div>
+                      <span>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                      </span>
+                      <span class="mx-2">( 4 lượt mua )</span>
+                    </div>
+                    <p class="text-black fw-bold">355.000đ</p>
+                  </div>
+                </div>
+                <hr class="my-2">
+                <div class="d-flex justify-content-between">
+                  <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe3e165ea/images/hi-res/511029FIGAA00_1.jpg?sw=640&sh=640" alt="" width="100" height="100">
+                  <div>
+                    <h5 class="fw-semibold">Mỹ phẩm châu Âu</h5>
+                    <div>
+                      <span>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                      </span>
+                      <span class="mx-2">( 4 lượt mua )</span>
+                    </div>
+                    <p class="text-black fw-bold">355.000đ</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-4 footer__col">
+          <h5 class="font-weight-bold text-uppercase mb-2">Liên hệ với chúng tôi</h5>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 footer__subgrid__cell text-wrap"><span
+                  class="footer__contact__icon ti-location-pin mx-1"></span>Tầng 4, Tòa nhà Hanoi Group, Số 442 Đội Cấn,
+                P Cống Vị, Q Ba ĐÌnh, Hà Nội</div>
+            </div>
+            <div class="row">
+              <div class="col-6 footer__subgrid__cell text-wrap"><span
+                  class="footer__contact__icon ti-headphone-alt mx-1"></span>(04) 5574 1221</div>
+              <div class="col-6 footer__subgrid__cell text-wrap"><span
+                  class="footer__contact__icon ti-headphone-alt mx-1"></span>(04) 5574 1221</div>
+            </div>
+            <div class="row">
+              <div class="col-6 footer__subgrid__cell text-wrap"><span
+                  class="footer__contact__icon ti-headphone-alt mx-1"></span>(08) 5574 1221</div>
+              <div class="col-6 footer__subgrid__cell text-wrap"><span
+                  class="footer__contact__icon ti-email mx-1"></span>Support@bizweb.vn</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md footer__col">
+          <h5 class="font-weight-bold text-uppercase">Chuyển hàng</h5>
+          <ul class="footer__ul footer__ul__col footer__ul__col-2">
+            <li>mua sắm trực tuyến</li>
+            <li>Đến từ chúng tôi gửi đến</li>
+            <li>Chính sách vận chuyển</li>
+            <li>cận chuyển thông tin</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md footer__col">
+          <h5 class="font-weight-bold text-uppercase">Hỗ trợ</h5>
+          <ul class="footer__ul footer__ul__col">
+            <li>Câu chuyện của chúng ta</li>
+            <li>Thanh toán an toàn</li>
+            <li>Tùy chọn vận chuyển</li>
+            <li>Chính sách vận chuyển</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md footer__col">
+          <h5 class="font-weight-bold text-uppercase">Thông tin</h5>
+          <ul class="footer__ul footer__ul__col">
+            <li>về chúng tôi</li>
+            <li>Điều khoản & điều kiện</li>
+            <li>Chính sách riêng tư</li>
+            <li>Đơn đặt hàng và Returns</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md footer__col">
+          <h5 class="font-weight-bold text-uppercase">My account</h5>
+          <ul class="footer__ul footer__ul__col">
+            <li>Xem giỏ hàng</li>
+            <li>Sản phẩm yêu thích</li>
+            <li>kiểm tra</li>
+            <li>Theo dõi đơn đặt hàng của tôi</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="d-flex align-items-center justify-content-between py-4">
+        <div class="">@Copyright 2014-2018 DKT Technology JSC</div>
+        <div class="d-flex">
+          <a class="footer__brand" href="#"><img class="object-fit-fill" src="/assets/img/Mastercard-logo.svg"
+              alt=""></a>
+          <a class="footer__brand" href="#"><img class="object-fit-fill" src="/assets/img/Visa_logo.svg" alt=""></a>
+          <a class="footer__brand" href="#"><img class="object-fit-fill" src="/assets/img/PayPal.svg" alt=""></a>
+          <a class="footer__brand" href="#"><img class="object-fit-fill" src="/assets/img/Maestro_2016.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="/assets/js/global.js"></script>
+</body>
+
+</html>
